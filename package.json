@@ -9,6 +9,7 @@
     "reset": "npx rimraf database.json",
     "start": "node -r esm src/server.js"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "dependencies": {
