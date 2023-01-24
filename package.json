@@ -2,7 +2,7 @@
   "name": "express-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "jest test/*",
     "lint": "eslint src/*.js",
