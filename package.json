@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
-  "type": "module",
   "scripts": {
     "test": "jest test/*",
     "lint": "eslint src/*.js",
     "reset": "npx rimraf database.json",
-    "deploy": "node -r esm src/server.js"
+    "start": "node -r esm src/server.js"
   },
   "author": "",
   "license": "ISC",
